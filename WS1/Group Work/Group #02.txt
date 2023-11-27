@@ -1,0 +1,46 @@
+WorkShop #01
+
+Step 1 - Start
+
+Step 2 - Explore Baskmania.
+
+Step 3 - Set The roll of player A and B initially null (0).
+
+Step 4 - Let Player A and b roll the dice: -
+a) If the number comes same: ROLL AGAIN.
+b) Else if: -IF number of A is greater than B: - A goes First.
+c)Else: - B goes First.
+
+Step 5  - Set each player's total throw attempts to four.
+
+Step 6  - Set up counters for successful basket and tie attempts.
+
+Step 7  - Start a loop that will run until a winner is determined.
+
+Step 8  - Player 1 will make all 4 throw attempts. And after that Player 2 will make all 4 throw attempts.
+
+Step 9  - Determine the winner or if the game is tied by comparing the number of successful baskets made by each player.
+
+Step 10  - If one player has more successful baskets than the other, than that player is winner.
+
+Step 11 - If the number of successful baskets is equal, then the game is tied, and the loop continues.
+
+Step 12 - Alternate who plays first in the next game in case of ties. If Player 1 played first in the current game, then Player 2 will play first in the next game, and vice versa.
+
+Step 13 - If the game is tied, then increment the counter for the number of ties.
+	Prize money will be reduced by 50 cents until any one player wins .
+ 	Is prize money in decimals :
+   	a) Yes 
+   	b) No <Step >
+	If yes than round up to the nearest whole number
+
+Step 14 - Repeat the loop to start a new game until a winner is determined.
+
+Step 15 - Is prize money in negative number 
+	a) Yes
+	b) No
+	If No than LOSER gives $1 to winner
+
+Step 16 - Prize money is calculated by total number of baskets made by the winner less then total number of baskets made by the losing player.
+
+Step 17 - End

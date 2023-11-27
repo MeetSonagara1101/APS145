@@ -1,0 +1,18 @@
+LOGIC 2:-
+
+Q. Two students challenge each other to a basketball shootout. Before the challenge begins, a simulated die will be rolled once by each student. The highest number will determine which student goes first. If there is a tie, the game will repeat until a winner can be declared (this can potentially repeat many times)
+
+Ans:- PSEUDO CODE :-
+
+1.Explore Baskmania.
+
+2. Set The roll of player A and B initially null (0).
+
+3.Let Player A and b roll the dice: -
+a) If the number comes same: ROLL AGAIN
+b) Else if: -IF number of A is greater than B: - A goes First
+c)Else: - B goes First
+
+4.Exit
+
+

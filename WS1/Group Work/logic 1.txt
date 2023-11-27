@@ -1,0 +1,21 @@
+1- Start 
+2- Basketball is played my two players
+3- Prize money is calculated by total number of baskets made by the winner less
+   then total number of baskets made by the losing player
+4- Outcomes of the game :
+   a) Any one player win and the other one loses <step 11>
+   b) Both player have equal score which turns to tie 
+5- Was there a tie while determining a winner ?
+   a) Yes  <step6> 
+   b) No   <step11>
+6- Prize money will be reduced by 50 cents until any one player wins .
+7- Is prize money in decimals :
+   a) Yes  <step8> 
+   b) No   <step9>
+8- Round up the number to nearest whole number
+9- Is prize money in negative number 
+   a) Yes  <step10>
+   b) No   <step11>
+10- Loser gives $1 to winner <step 11>
+11- Loser gives money to winner 
+12- End
