@@ -1,0 +1,80 @@
+Student Name:- Kashyap Hasmukbhai Patel
+Student id:-145425229
+userid:-khpatel34
+Email:-khpatel34@myseneca.ca
+Section:-ZDD
+Group Number:-2
+Member:-1
+
+Student Name:- Devankit Shukla
+Student id:-139395222
+userid:-dnshukla
+Email:-dnshukla@myseneca.ca
+Section:-ZDD
+Group Number:-2
+Member:-2
+
+Student Name   : Meet Hitesh Sonagara
+Student Number : 122208226
+UserID         : msonagara
+Email          : msonagara@myseneca.ca
+Section        : ZDD
+Group Number   : 2
+Member         : 3
+
+
+START
+
+Step 1) Give the following definition of the 4-light, 5-state system's sequence:
+	
+	State 1 : Solid Green for 15 seconds with an Advanced Left Green Arrow.
+	
+	State 2 : Is Solid Green for 5 seconds with an Advanced Left Amber Arrow.
+	
+	State 3 : For 45 seconds, Solid Green + Advanced Left Arrow (off).
+	
+	State 4 : For 45 seconds, Solid Green + Advanced Left Arrow (on).
+	
+	State 5 : Solid Amber for 10 seconds.
+	
+	State 6 : Solid Red for an 75 seconds  of time.
+
+Step 2) Set Current light to Red and the duration of the red light will be 75 seconds.
+
+Step 3)To check for the vehicles at the intersection using the sensors,
+	   If there will be any vehicle then,
+			The signal light will turn on green (For 50 seconds) from red and Walking signal will also activate.
+
+Step 4) Walk Request
+	Where there is an interruption of walk request:
+		1. Red Light will appear again after the total time of 75 seconds.
+		2. If a predestrian pressed the walk button then the 75 seconds timer will deduce to 10 seconds.
+
+Step 5) If an interrupt signal is received, pause the current traffic light sequence and give priority to the emergency vehicle. Is there a interrupt?
+	a. Yes
+		1. Its a 4 way stop to reset the traffic lights.
+		2. Inspect the system for any interruptions. If an interrupt is found, respond appropriately.
+
+		5. In the event that the light is currently "red," see if there are five or more vehicles parked at the junction. If so, cut the time spent waiting at the red-light condition to 10 seconds.
+
+Step 6) Display Solid Green with an Advanced Left Green Arrow for 15 seconds.
+
+Step 7) If an interrupt signal is received, Execute Step 5.
+
+Step 8) Is Solid Green for 5 seconds with an Advanced Left Amber Arrow.
+
+Step 9) If an interrupt signal is received, Execute Step 5.
+
+Step 10) For 45 seconds, Solid Green + Advanced Left Arrow (off).
+
+Step 11) If an interrupt signal is received, Execute Step 5.
+
+Step 12) For 45 seconds, Solid Green + Advanced Left Arrow (on).
+
+Step 13) If an interrupt signal is received, Execute Step 5.
+
+Step 14) Solid Amber for 10k seconds.
+
+Step 15) If an interrupt signal is received, Execute Step 5.
+
+Step 16) Go to Step 2 or set Current light to Red and the duration of the red light will be 75 seconds.

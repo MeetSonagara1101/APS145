@@ -1,0 +1,29 @@
+Student Name   : Meet Hitesh Sonagara
+Student Number : 122208226
+UserID         : msonagara
+Email          : msonagara@myseneca.ca
+Section        : ZDD
+Group Number   : 2
+Member         : 3
+
+WorkShop : traffic light system
+
+#Logic 3
+
+Step 1 : Set the system
+	 • Set the defalut state of traffic light to red.
+	 • Turn off the pedestrians walking signal.
+
+Step 2 : To check for the vehicles at the intersection using the sensors,
+	   If there will be any vehicle then,
+			The signal light will turn on green (For 50 seconds) from red and Walking signal will also activate.
+
+Step 3 : After 50 Seconds the Yellow/Amber light will appear for 20 seconds which means the vehicles which are already at intersection need to cross and clear the way.
+		while other vehicles will stop
+
+Step 4 : Red Light will appear again after the total time of 70 seconds
+	   If a predestrian pressed the walk button then the 70 seconds timer will deduce to 10 seconds.
+
+Step 5 : And after 10 second the green light will appear with the walking signal
+
+Step 6 : This process will Repeat from step 2 for rest of the time.
